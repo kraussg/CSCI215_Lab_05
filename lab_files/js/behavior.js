@@ -43,7 +43,7 @@ console.clear();
     var imgNode = document.createElement("img");
     var srcAttr = document.createAttribute("src");
     srcAttr.value = "http://munsellb.people.cofc.edu/img/prettypicture.jpg";
-    imgNode.appendChild(srcAttr);
+    imgNode.setAttributeNode(srcAttr);
     divNode.appendChild(imgNode);
 
 
